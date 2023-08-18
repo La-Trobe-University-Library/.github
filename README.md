@@ -1,2 +1,0 @@
-# .github
-organisation readme repo
