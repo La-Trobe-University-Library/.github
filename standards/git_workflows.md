@@ -12,7 +12,13 @@ The [Atlassian Bit Bucket](https://www.atlassian.com/git) guides are pretty good
 
 Generally you should start by cloning the [LTU example repository](https://github.com/La-Trobe-University-Library/example).
 
-You can do this from GitHub Desktop by going to `File - clone repository...` or via the command line via `git clone`.
+You can do this from GitHub Desktop by going to `File - clone repository...` or via the command line via `git clone`. See [GitHub's instructions on cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=desktop)
+
+Once you have a clone on your local machine, add a new **empty** La Trobe repository on GitHub. Do not initiate it with any files (e.g. LICENSE, README) when asked. Your new repository should have an address like `https://github.com/La-Trobe-University-Library/myawesomeproject.git`.
+
+Now go back to GitHub Desktop and go to `Repository > Repository settings...`. Change the **Remote** address to the address of the empty repository you just created.
+
+Make your changes locally to turn the example template into a real repository. Once you have committed your changes, you can **publish** up to GitHub. This will push your changes to the new remote you created.
 
 # Working with existing repositories
 
