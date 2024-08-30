@@ -32,4 +32,4 @@ We use the process described in [GitHub flow](https://docs.github.com/en/get-sta
 4. Invite reviewers: Usually at least one other relevant team member should review your changes before they are merged.
 5. Address review comments
 6. Merge your pull request: Once your PR is complete, another team member should merge your PR to ensure that a second person always reviews every PR as above.
-7. If you created a fresh branch: Delete the branch on the remote (GitHub) repository to keep thing clean, and also on your local machine.
+7. If you created a fresh branch: Delete the branch on the remote (GitHub) repository to keep things clean, and also on your local machine.
