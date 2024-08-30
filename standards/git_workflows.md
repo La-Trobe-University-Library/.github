@@ -22,21 +22,14 @@ Make your changes locally to turn the example template into a real repository. O
 
 # Working with existing repositories
 
-We use the process described in [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow):
+We use the process described in [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), except to keep things simple you don't necessarily need a new branch if you are working from a fork:
 
-1. Create a branch
-2. Make changes
+1. Create a fork
+2. Make changes in a new branch or the `main`/`master` branch
     1. make sure all the changes in a single branch are related - if there are two different bugs you are fixing, you should have a branch for each of them respectively.
-    2. generally you should add each self-contained change in your work as a single commit, with a descriptive name. Judging how big a commit should be is more art than science, but err on the side of more rather than fewer commits.
-3. Create a pull request
-4. Invite reviewers
-    Usually at least one other relevant team member should review your changes before they are merged.
+    2. generally you should add each self-contained change in your work as a single commit, with a descriptive name. Judging how big a commit should be is more art than science, but err on the side of more rather than fewer commits (i.e. smaller changes per commit).
+3. Create a pull request - you can do this from the GitHub Desktop interface by pushing to the remote and creating a PR in one action
+4. Invite reviewers: Usually at least one other relevant team member should review your changes before they are merged.
 5. Address review comments
-6. Merge your pull request
-    If you are confident you have addressed all review comments, merge the PR. You can also ask your reviewer or another team member to do this.
-7. Delete your branch
-    Delete the branch on the remote (GitHub) repository to keep thing clean, and also on your local machine.
-
-TODO:
-
-- do we use Issues, or is that doubling up on tickets elsewhere? Or can we automate it in Powerapps? Should we?
+6. Merge your pull request: Once your PR is complete, another team member should merge your PR to ensure that a second person always reviews every PR as above.
+7. If you created a fresh branch: Delete the branch on the remote (GitHub) repository to keep thing clean, and also on your local machine.
